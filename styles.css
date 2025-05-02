@@ -316,44 +316,6 @@ header {
     transform: translateX(5px);
 }
 
-/* Testimonials */
-.testimonials {
-    padding: 100px 0;
-    background-color: #fff;
-    text-align: center;
-}
-
-.testimonial {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 30px;
-    border-radius: 10px;
-    background-color: #f8f9fa;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-}
-
-.quote {
-    font-size: 1.2rem;
-    font-style: italic;
-    color: #555;
-    margin-bottom: 20px;
-    position: relative;
-}
-
-.quote::before {
-    content: '"';
-    font-size: 4rem;
-    color: #4285F4;
-    opacity: 0.2;
-    position: absolute;
-    top: -30px;
-    left: -10px;
-}
-
-.author {
-    font-weight: bold;
-    color: #333;
-}
 
 /* Join Us Section */
 .join-us {
