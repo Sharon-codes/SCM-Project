@@ -110,9 +110,7 @@ header {
     align-items: center;
 }
 
-.logo img {
-    height: 40px;
-    margin-right: 10px;
+
 }
 
 .logo span {
@@ -166,36 +164,24 @@ header {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/api/placeholder/1200/600') center/cover no-repeat;
+
     height: 100vh;
     display: flex;
     align-items: center;
     text-align: center;
     color: white;
     padding-top: 60px;
+
 }
 
 .hero-content {
     max-width: 800px;
     margin: 0 auto;
-}
 
-.hero-content h1 {
     font-size: 3.5rem;
     margin-bottom: 10px;
     text-transform: uppercase;
-    letter-spacing: 1px;
-}
 
-.hero-content h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #EA4335;
-}
-
-.hero-content p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
 }
 
 .hero-buttons {
@@ -203,6 +189,7 @@ header {
     justify-content: center;
     gap: 20px;
 }
+
 
 /* About Section */
 .about {
@@ -268,62 +255,17 @@ header {
 
 .event-card {
     background-color: white;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
 
-.event-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
-}
-
-.event-image img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-
-.event-content {
-    padding: 20px;
 }
 
 .event-content h3 {
     font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: #333;
+
 }
 
 .event-content p {
     color: #666;
     margin-bottom: 20px;
-}
-
-.btn-event {
-    display: inline-block;
-    padding: 8px 16px;
-    background-color: #FBBC05;
-    color: #333;
-    border-radius: 4px;
-    font-weight: 500;
-    transition: all 0.3s ease;
-}
-
-.btn-event:hover {
-    background-color: #F9AB00;
-    color: #333;
-    transform: translateX(5px);
-}
-
-
-/* Join Us Section */
-.join-us {
-    padding: 100px 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/api/placeholder/1200/600') center/cover no-repeat;
-    color: white;
-    text-align: center;
-}
 
 .join-content {
     max-width: 600px;
