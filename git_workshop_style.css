@@ -192,3 +192,128 @@ nav a:hover {
   height: 100%;
   z-index: -2;
 }
+
+/* About Section */
+.about {
+  background-color: var(--secondary);
+  border-radius: 1rem;
+  padding: 3rem 2rem;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.about-card {
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 0.5rem;
+  border: 1px solid var(--border);
+}
+
+.about-card h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+
+/* Schedule Section */
+.schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.schedule-card {
+  background-color: var(--secondary);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.schedule-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(117, 70, 255, 0.2);
+}
+
+.schedule-time {
+  font-size: 0.9rem;
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.schedule-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.schedule-speaker {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+/* Speakers Section */
+.speakers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.speaker-card {
+  background-color: var(--secondary);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.speaker-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(117, 70, 255, 0.2);
+}
+
+.speaker-image {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.speaker-info {
+  padding: 1.5rem;
+}
+
+.speaker-name {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.speaker-title {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* Registration Section */
+.registration {
+  text-align: center;
+}
+
+.registration-info {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  padding: 2rem;
+  background-color: var(--secondary);
+  border-radius: 0.5rem;
+  border: 1px solid var(--border);
+}
+
+.registration-info p {
+  margin-bottom: 1rem;
+}
+
+.registration-info strong {
+  color: var(--primary);
+}
